@@ -1,0 +1,5 @@
+outs:
+- md5: 459aae0cdb78f9404aa71546af6cbfba
+  size: 484349
+  path: dvc_test_data.csv
+  isexec: true
