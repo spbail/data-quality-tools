@@ -1,0 +1,45 @@
+{
+    "creation_metadata": {
+        "local_time": "2021-03-20 12:12:10",
+        "utc_time": "2021-03-20 22:22:10",
+        "creator": "TDDA 1.0.32",
+        "host": "Sams-MacBook-Pro.local",
+        "user": "sam",
+        "n_records": 10000,
+        "n_selected": 10000
+    },
+    "fields": {
+        "vendor_id": {
+            "type": "int",
+            "min": 1,
+            "max": 4,
+            "sign": "positive",
+            "max_nulls": 0
+        },
+        "pickup_datetime": {
+            "type": "string",
+            "min_length": 19,
+            "max_length": 19,
+            "max_nulls": 0
+        },
+        "dropoff_datetime": {
+            "type": "string",
+            "min_length": 19,
+            "max_length": 19,
+            "max_nulls": 0
+        },
+        "passenger_count": {
+            "type": "int",
+            "min": 1,
+            "max": 6,
+            "sign": "positive",
+            "max_nulls": 0
+        },
+        "fare_amount": {
+            "type": "real",
+            "min": -52.0,
+            "max": 3004.0,
+            "max_nulls": 0
+        }
+    }
+}
